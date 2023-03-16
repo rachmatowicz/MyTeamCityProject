@@ -13,4 +13,10 @@ public class MainTest {
         System.out.println("This is a second test");
     }
 
+    @Test
+    public void testMethod3() {
+        System.out.println("This is a third test");
+        System.getenv();
+    }
+
 }

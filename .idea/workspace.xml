@@ -6,12 +6,65 @@
   <component name="BuildServerSettings">
     <option name="LOGIN" value="rachmato" />
     <option name="SERVER_URL" value="http://localhost:8111" />
+    <option name="REMEMBER_ME" value="false" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="1" />
+    <SELECTED_PROJECT id="project1" />
+    <SELECTED_TYPE id="bt1" />
+    <treeState key="changes">
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ChangesGroupDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ChangesGroupDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.VcsModificationDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+    <treeState key="project">
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="project1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+    <treeState key="selectConfigurations.run">
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="project1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="bt1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.BuildTypeDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="406a0d5d-bf30-4aa2-accd-1bb5376b00e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/test/java/org/example/MainTest.java" afterDir="false" />
+    <list default="true" id="406a0d5d-bf30-4aa2-accd-1bb5376b00e9" name="Changes" comment="Add a second test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/org/example/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +146,9 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SuitableConfigurationIdsCache">
-    <SERVER_URL values="" />
-    <FIRST_MONTH_REVISION values="" />
-    <SUITABLE_CONFIGURATIONS_IDS values="" />
+    <SERVER_URL values="http://localhost:8111" />
+    <FIRST_MONTH_REVISION values="bec95bf56a9d5766b723f6d46b56e0e9c7239219" />
+    <SUITABLE_CONFIGURATIONS_IDS values="bt1" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -104,8 +157,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678829605277</updated>
-      <workItem from="1679002062127" duration="541000" />
+      <workItem from="1679002062127" duration="3170000" />
     </task>
+    <task id="LOCAL-00001" summary="Add test.">
+      <created>1679002680434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679002680434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add tests">
+      <created>1679002732585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679002732585</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add config changes.">
+      <created>1679005688644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679005688644</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add a second test.">
+      <created>1679005933731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679005933731</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add a third test.">
+      <created>1679006190144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679006190144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +215,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add test." />
+    <MESSAGE value="Add tests" />
+    <MESSAGE value="Add config changes." />
+    <MESSAGE value="Add a second test." />
+    <MESSAGE value="Add a third test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a third test." />
   </component>
 </project>
