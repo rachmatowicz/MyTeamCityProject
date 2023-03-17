@@ -40,6 +40,10 @@
           <option name="myNodeId" value="project1" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="bt1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.BuildTypeDescriptor" />
+        </pathElement>
       </selectedPath>
     </treeState>
     <treeState key="selectConfigurations.run">
@@ -62,9 +66,11 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="406a0d5d-bf30-4aa2-accd-1bb5376b00e9" name="Changes" comment="Add a second test.">
+    <list default="true" id="406a0d5d-bf30-4aa2-accd-1bb5376b00e9" name="Changes" comment="Add a third test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/org/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +107,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/nrla/ideaProjects/MyMavenProject",
+    "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.teamcityPluginOptions",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.MainTest (1)">
     <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyTeamCityProject" />
@@ -157,7 +172,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678829605277</updated>
-      <workItem from="1679002062127" duration="3170000" />
+      <workItem from="1679002062127" duration="4264000" />
+      <workItem from="1679011635365" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="Add test.">
       <created>1679002680434</created>
@@ -194,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679006190144</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Personal build">
+      <created>1679009235094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679009235094</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add a third test.">
+      <created>1679009261290</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679009261290</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +251,12 @@
     <MESSAGE value="Add tests" />
     <MESSAGE value="Add config changes." />
     <MESSAGE value="Add a second test." />
+    <MESSAGE value="Personal build" />
     <MESSAGE value="Add a third test." />
     <option name="LAST_COMMIT_MESSAGE" value="Add a third test." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
